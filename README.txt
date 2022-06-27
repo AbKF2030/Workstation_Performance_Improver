@@ -79,3 +79,9 @@ _______________
 elsewhere.
 
 - In order to use my program to the fullest, you must run it as an administrator.
+
+
+
+NOTE:
+_____
+- This program will activate the NUM Lock of your keyboard. You'll see this after the computer restarts itself then display the sign-in page.
