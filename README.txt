@@ -11,7 +11,7 @@ WARNING! Before running this script on a computer\laptop, ask the end-user these
 
 WHO BENEFITS FROM THIS SCRIPT:
 ______________________________
-- Any employee running Windows 10 on their workstation.
+- Any employee running Windows 10 on their workstation. Don't run this program on Windows 8 or earlier because I haven't tested it out on these versions.
 
 
 
