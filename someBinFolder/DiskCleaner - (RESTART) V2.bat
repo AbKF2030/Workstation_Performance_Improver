@@ -6,7 +6,8 @@ set e=reg add "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators
 %e% 3 /f
 %e% 2 /f
 set e=echo
-%e% removing the 3D Object folder & reg delete HKLM\software\microsoft\windows\currentVersion\explorer\myComputer\nameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A} /f
+%e% removing the 3D Object folder
+reg delete HKLM\software\microsoft\windows\currentVersion\explorer\myComputer\nameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A} /f
 %e% disabling Cortana & reg add "HKLM\software\policies\microsoft\windows\Windows Search" /f
 reg add "HKLM\software\policies\microsoft\windows\Windows Search" /v "AllowCortana" /t REG_DWORD /d 0 /f
 %e% disabling xbox apps
