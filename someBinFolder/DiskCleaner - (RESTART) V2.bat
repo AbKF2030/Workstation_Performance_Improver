@@ -14,7 +14,7 @@ reg add "HKLM\software\policies\microsoft\windows\Windows Search" /v "AllowCorta
 %e% disabling xbox apps
 set p1=powershell get-service
 set p2=set-service -startuptype disabled
-%p1% *xbox* ^| 
+%p1% *xbox* ^| %p2%
 %e% (1/2)
 %p1% get-service *xbl* ^| %p2%
 %e% (2/2) DONE!
