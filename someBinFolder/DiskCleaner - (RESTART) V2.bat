@@ -44,7 +44,7 @@ set p1=schtasks /change /tn "\Microsoft\Windows\
 set p2=/disable
 %p1%Customer Experience Improvement Program\Consolidator" %p2%
 %p1%Customer Experience Improvement Program\Consolidator" %p2%
-%p1%Feedback\Siuf\DmClient" %p%p2%
+%p1%Feedback\Siuf\DmClient" %p2%
 %p1%Feedback\Siuf\DmClientOnScenarioDownload" %p2%
 %p1%helloface\FODCleanupTask" %p2%
 %p1%Windows\shell\FamilySafetyMonitor" %p2%
